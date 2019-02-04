@@ -3,8 +3,6 @@ import { connect } from 'react-redux';
 import { IntlProvider, FormattedMessage } from 'react-intl';
 import { Helmet } from 'react-helmet';
 import { withStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
-import { BrowserRouter as Router } from 'react-router-dom';
 
 import * as actions from './redux/appStore/actions';
 import messages from './i18n/messages';
@@ -33,15 +31,12 @@ class App extends Component {
             <html lang={selectedLocale.locale} />
             <body dir={selectedLocale.direction} />
           </Helmet>
-          {/* <Router> */}
             <TopBar />
             <div className={classes.root}>
               <h1>
                 <FormattedMessage id="app.header"/>
               </h1>
-              
             </div>
-          {/* </Router> */}
         </Fragment>
       </IntlProvider>
     );
