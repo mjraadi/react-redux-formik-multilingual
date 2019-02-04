@@ -1,11 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Provider as ReduxProvider } from "react-redux";
+
+
 import * as serviceWorker from './serviceWorker';
 import App from "./App";
 import createStore from './utils/createReduxStore';
+import { addAppLocaleData } from './i18n';
 
 const store = createStore();
+addAppLocaleData();
 
 ReactDOM.render(
   <ReduxProvider store={store}>

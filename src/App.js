@@ -1,19 +1,27 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { IntlProvider } from 'react-intl';
+import { FormattedMessage } from 'react-intl';
 import * as actions from './redux/appStore/actions';
+import messages from './i18n/messages';
 
 class App extends Component {
   componentDidMount(){
-    const { changeLocale } = this.props;
-    changeLocale('fa');
+    // const { changeLocale } = this.props;
+    // changeLocale('fa');
   }
   render() {
     const { selectedLocale } = this.props;
     console.log(selectedLocale)
     return (
-      <h1>
-        Redux Store Added.
-      </h1>
+      <IntlProvider
+        locale={selectedLocale.locale}
+        messages={messages[selectedLocale.locale]}
+        >
+        <h1>
+          <FormattedMessage id="app.header"/>
+        </h1>
+      </IntlProvider>
     );
   }
 }
