@@ -1,3 +1,6 @@
 {
-  "app.header": "Welcome"
+  "app.header": "Welcome",
+  "app.author": "Bits n Bytes Dev Team",
+  "menu.home": "Home",
+  "menu.about": "About Us"
 }

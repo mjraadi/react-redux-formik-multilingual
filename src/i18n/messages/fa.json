@@ -1,3 +1,6 @@
 {
-  "app.header": "تست"
+  "app.header": "تست",
+  "app.author": "تیم طراحی و توسعه Bits n Bytes",
+  "menu.home": "صفحه اصلی",
+  "menu.about": "درباره ما"
 }
