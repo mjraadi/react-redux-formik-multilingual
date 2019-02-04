@@ -1,28 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { connect } from 'react-redux';
+import * as actions from './redux/appStore/actions';
 
 class App extends Component {
+  componentDidMount(){
+    const { changeLocale } = this.props;
+    changeLocale('fa');
+  }
   render() {
+    const { selectedLocale } = this.props;
+    console.log(selectedLocale)
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <h1>
+        Redux Store Added.
+      </h1>
     );
   }
 }
 
-export default App;
+const mapStateToProps = (state) => {
+  return{
+    selectedLocale: state.appStore.selectedLocale
+  }
+};
+
+export default connect(mapStateToProps, actions)(App);

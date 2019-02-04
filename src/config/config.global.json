@@ -1,0 +1,24 @@
+{
+  "availableLocales": [
+    {
+      "locale": "en",
+      "enabled": true,
+      "default": true,
+      "localeDisplayName": "English",
+      "direction": "ltr",
+      "hreflang": "x-default",
+      "ogLocale": "en_US",
+      "countryCode": "us"
+    },
+    {
+      "locale": "fa",
+      "enabled": true,
+      "default": false,
+      "localeDisplayName": "فارسی",
+      "direction": "rtl",
+      "hreflang": "fa-IR",
+      "ogLocale": "fa_IR",
+      "countryCode": "ir"
+    }
+  ]
+}
