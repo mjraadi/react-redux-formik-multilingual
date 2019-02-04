@@ -13,7 +13,6 @@ class App extends Component {
   }
   render() {
     const { selectedLocale } = this.props;
-    console.log(selectedLocale)
     return (
       <IntlProvider
         locale={selectedLocale.locale}
