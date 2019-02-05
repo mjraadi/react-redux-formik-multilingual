@@ -2,6 +2,7 @@
   <h2 lang="fa" dir="rtl" align="right">
     ساخت فرم چند زبانه در React از طریق react-intl, Formik و Yup
   </h2>
+  ![react-redux-formik-multilingual](https://dl.bitsnbytes.ir/gifs/react-redux-formik-yup.gif)
   <h4 lang="fa" dir="rtl" align="right">
   در این اپ نحوه ساخت فرم های پویا و چند زبانه را از طریق کتابخانه های فورمیک react-intl، material-ui نمایش داده شده است. همچنین از کتابخانه Yup برای ارزیابی فیلد های ورودی کاربر استفاده شده است.
   </h4>
