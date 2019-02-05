@@ -2,5 +2,16 @@
   "app.header": "Welcome",
   "app.author": "Bits n Bytes Dev Team",
   "menu.home": "Home",
-  "menu.about": "About Us"
+  "menu.about": "About Us",
+  "contactForm.name": "Your Name",
+  "contactForm.emailAddress": "Your Email Address",
+  "contactForm.message": "Your Message",
+  "contactForm.submit": "Send Message",
+  "contactForm.submiting": "Sending...",
+  "contactForm.fullName.helperText.default": "Please enter your name",
+  "contactForm.fullName.helperText.required": "Your name is required",
+  "contactForm.emailAddress.helperText.default": "Please enter your email address",
+  "contactForm.emailAddress.helperText.email": "Email address is incorrect",
+  "contactForm.message.helperText.default": "Please enter your message",
+  "contactForm.message.helperText.required": "Message is required"
 }

@@ -1,11 +1,16 @@
+import Home from '@material-ui/icons/Home';
+import Group from '@material-ui/icons/Group';
+
 const Menu = [
   {
     label: "menu.home",
-    pathname: "/"
+    pathname: "/",
+    icon: Home,
   },
   {
     label: "menu.about",
-    pathname: "/about"
+    pathname: "/about",
+    icon: Group,
   },
 ];
 

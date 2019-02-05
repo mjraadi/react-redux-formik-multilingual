@@ -2,5 +2,16 @@
   "app.header": "تست",
   "app.author": "تیم طراحی و توسعه Bits n Bytes",
   "menu.home": "صفحه اصلی",
-  "menu.about": "درباره ما"
+  "menu.about": "درباره ما",
+  "contactForm.name": "نام و نام خانوادگی",
+  "contactForm.emailAddress": "آدرس پست الکترونیکی",
+  "contactForm.message": "پیام",
+  "contactForm.submit": "ارسال پیام",
+  "contactForm.submiting": "در حال ارسال پیام",
+  "contactForm.fullName.helperText.default": "لطفا نام و نام خانوادگی خود را وارد نمایید",
+  "contactForm.fullName.helperText.required": "این فیلد الزامی است",
+  "contactForm.emailAddress.helperText.default": "لطفا آدرس پست الکترونیکی خود را وارد کنید",
+  "contactForm.emailAddress.helperText.email": "آدرس پست الکترونیکی صحیح نمی باشد",
+  "contactForm.message.helperText.default": "لطفا پیام خود را وارد کنید",
+  "contactForm.message.helperText.required": "پیام الزامی است"
 }

@@ -1,24 +1,16 @@
 import React, { Component, Fragment } from 'react';
-import { connect } from 'react-redux';
-import { IntlProvider, FormattedMessage } from 'react-intl';
+import { IntlProvider } from 'react-intl';
 import { Helmet } from 'react-helmet';
 import { withStyles } from '@material-ui/core/styles';
 
-import * as actions from './redux/appStore/actions';
 import messages from './i18n/messages';
 import withMaterialUI from './hocs/withMaterialUI';
-import TopBar from './components/TopBar';
+import withAppStoreProps from './hocs/withAppStoreProps';
+import RootRouter from './router';
 
 class App extends Component {
-  handleClick(){
-    const { changeLocale, selectedLocale } = this.props;
-    if(selectedLocale.locale === 'fa')
-      changeLocale('en');
-    else
-      changeLocale('fa');
-  }
   render() {
-    const { selectedLocale, classes } = this.props;
+    const { selectedLocale } = this.props;
     return (
       <IntlProvider
         locale={selectedLocale.locale}
@@ -30,30 +22,22 @@ class App extends Component {
             >
             <html lang={selectedLocale.locale} />
             <body dir={selectedLocale.direction} />
+            <title>{selectedLocale.appTitle}</title>
+            <meta name="description" content={selectedLocale.appDescription} />
           </Helmet>
-            <TopBar />
-            <div className={classes.root}>
-              <h1>
-                <FormattedMessage id="app.header"/>
-              </h1>
-            </div>
+            <RootRouter />
         </Fragment>
       </IntlProvider>
     );
   }
 }
 
-const mapStateToProps = (state) => {
-  return{
-    selectedLocale: state.appStore.selectedLocale
-  }
-};
 const styles = theme => ({
   root: {
-    textAlign: 'center',
-    paddingTop: theme.spacing.unit * 20,
+    ...theme.mixins.gutters(),
+    paddingTop: theme.spacing.unit * 2,
+    paddingBottom: theme.spacing.unit * 2,
   },
 });
 
-export default 
-  connect(mapStateToProps, actions)(withMaterialUI(withStyles(styles)(App)));
+export default withAppStoreProps(withMaterialUI(withStyles(styles)(App)));

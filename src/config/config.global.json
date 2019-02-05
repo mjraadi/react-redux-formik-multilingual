@@ -2,23 +2,21 @@
   "availableLocales": [
     {
       "locale": "en",
-      "enabled": true,
       "default": true,
       "localeDisplayName": "English",
       "direction": "ltr",
-      "hreflang": "x-default",
-      "ogLocale": "en_US",
-      "countryCode": "us"
+      "countryCode": "us",
+      "appTitle": "Bits n Bytes Dev Team | Building Multilingual React Forms using react-intl, Formik and Yup",
+      "appDescription": "This app teaches you how to build a multilingual react form using material-ui, formik, react-intl and yup for form validation."
     },
     {
       "locale": "fa",
-      "enabled": true,
       "default": false,
       "localeDisplayName": "فارسی",
       "direction": "rtl",
-      "hreflang": "fa-IR",
-      "ogLocale": "fa_IR",
-      "countryCode": "ir"
+      "countryCode": "ir",
+      "appTitle": "تیم توسعه و امنیت Bits n Bytes | ساخت فرم در React از طریق Formik و Yup",
+      "appDescription": "در این اپ نحوه ساخت فرم های پویا و چند زبانه را از طریق کتابخانه های فورمیک(Formik)، react-intl، material-ui نمایش داده شده است. همچنین از کتابخانه Yup برای ارزیابی فیلد های ورودی کاربر استفاده شده است."
     }
   ]
 }
