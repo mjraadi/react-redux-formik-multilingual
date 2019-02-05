@@ -13,5 +13,7 @@
   "contactForm.emailAddress.helperText.default": "لطفا آدرس پست الکترونیکی خود را وارد کنید",
   "contactForm.emailAddress.helperText.email": "آدرس پست الکترونیکی صحیح نمی باشد",
   "contactForm.message.helperText.default": "لطفا پیام خود را وارد کنید",
-  "contactForm.message.helperText.required": "پیام الزامی است"
+  "contactForm.message.helperText.required": "پیام الزامی است",
+  "about": "ما بر این باوریم که انجام پروژه های موفق در محیطی خوب و با تیمی متحد امکان پذیر است ، از این رو تیم توسعه ما متشکل از اعضایی با تجربه و حرفه ای، خلاق، قابل اعتماد و خوش برخورد هستند که با داشتن روحیه تیمی همواره برای بدست آوردن بهترین نتیجه تلاش می کنند.",
+  "about.website": "وب سایت ما"
 }

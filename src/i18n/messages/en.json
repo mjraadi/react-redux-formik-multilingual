@@ -13,5 +13,7 @@
   "contactForm.emailAddress.helperText.default": "Please enter your email address",
   "contactForm.emailAddress.helperText.email": "Email address is incorrect",
   "contactForm.message.helperText.default": "Please enter your message",
-  "contactForm.message.helperText.required": "Message is required"
+  "contactForm.message.helperText.required": "Message is required",
+  "about": "Bits n Bytes Dev Team helps companies ranging from startups, mid-size clients to large enterprises achieve their business goals by providing highly talented IT professionals, developers and programmers for hire. Whether you are looking to hire a dedicated developer on hourly, full-time or part-time basis, we provide experts to fit in with your specific project needs.",
+  "about.website": "Get in Touch"
 }
