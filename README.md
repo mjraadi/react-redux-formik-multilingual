@@ -1,6 +1,10 @@
+<div style="direction:rtl">
+
 ##  ساخت فرم در React از طریق Formik و Yup
 
+<h2 lang="fa" dir="rtl" align="right">
 در این اپ نحوه ساخت فرم های پویا و چند زبانه را از طریق کتابخانه های فورمیک(Formik)، react-intl، material-ui نمایش داده شده است. همچنین از کتابخانه Yup برای ارزیابی فیلد های ورودی کاربر استفاده شده است.
+</h2>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
