@@ -15,8 +15,10 @@ import styles from './styles';
 class RootRouter extends Component{
   render(){
     const { classes } = this.props;
+    const isDev = process.env.NODE_ENV === "development";
+    const baseName = (isDev)? '/' : '/react-redux-formik-multilingual';
     return(
-      <Router>
+      <Router basename={baseName}>
         <main className={classes.layout}>
           <div className={classes.heroContent}>
             <TopBar />
