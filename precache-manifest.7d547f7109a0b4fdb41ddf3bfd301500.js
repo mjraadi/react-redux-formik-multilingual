@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/react-redux-formik-multilingual/static/js/runtime~main.647a439a.js"
   },
   {
-    "revision": "bdf7fa8635ba3f17c089",
-    "url": "/react-redux-formik-multilingual/static/js/main.bdf7fa86.chunk.js"
+    "revision": "b2a4cb57a2603eb9fdf8",
+    "url": "/react-redux-formik-multilingual/static/js/main.b2a4cb57.chunk.js"
   },
   {
     "revision": "1c57e70e2ad5effb8179",
     "url": "/react-redux-formik-multilingual/static/js/1.1c57e70e.chunk.js"
   },
   {
-    "revision": "30e9be141f42af61de62fe85e90f2856",
+    "revision": "a88826c10c490d6c9b0b305f2a400470",
     "url": "/react-redux-formik-multilingual/index.html"
   }
 ];

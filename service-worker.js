@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-redux-formik-multilingual/precache-manifest.de0e2dc7ad09898bbd171982c35b0f54.js"
+  "/react-redux-formik-multilingual/precache-manifest.7d547f7109a0b4fdb41ddf3bfd301500.js"
 );
 
 workbox.clientsClaim();
